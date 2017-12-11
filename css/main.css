@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Cabin', sans-serif;
+    margin: 0;
+  }
+
+.container {
+    margin: 0 auto;
+    max-width:100%;
+    position: relative;
+}
+ a , button, span{
+    vertical-align: middle;
+    text-align: center; 
+ }          
+
+ img[alt="logo"]{
+    width: 150px;
+    display: inline-block;
+    margin-left: 10px;
+}
+nav{
+    background-color: #fff;
+    /* height: 100px; */
+}
+button{
+    /* display: inline-block; */
+    display: none;
+    background: none;
+    border: none;
+    position: absolute;
+    right: 0;
+    top: 30px;
+
+}
+.container ul{
+    list-style: none;
+    display: inline-block;
+    outline: 1px solid red;
+    padding-left: 0;
+    position: absolute;
+    right: 0;
+    top: 30px;
+}
+.container li{
+    outline: 1px solid blue;
+    display: inline-block;
+    margin-right: 20px;    
+}
+.big-image {
+    background-image: url("../assets/images/00.jpg");
+    min-height: 380px;
+    width: 100%;
+    background-size: cover;
+    background-position: 50% 45%;
+} 
+
+.contact {
+    display: inline;
+    outline: 1px solid red;
+}
+
+ .info{
+    height: 150px;
+    width: 750px;
+    outline: 1px solid green;
+    display: inline-block;
+}   
+
+.pic {
+    float: left;
+    max-height:100%;
+    margin: 0 10px;
+} 
+
+.main{
+    width: 1200px;
+    overflow: hidden;
+    margin: 0 auto;
+} 
+footer{
+    padding: 20px;
+    text-align: center;
+    background-color: #e8f6fe;
+    outline: 1px solid green;
+    overflow: hidden;
+    width: 100%;
+}
