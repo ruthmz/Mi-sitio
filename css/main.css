@@ -44,6 +44,9 @@ a {
   padding: 0.5em;
   color:#fff;
 }
+.content{
+  margin: 1em 0 1.5em 0;
+}
 footer{
   background: #000;
 }
@@ -53,5 +56,44 @@ footer{
   height: auto;
 }
 .hidden-xs {
-    display: none;
+  display: none;
+}
+
+ /* Tablet Grid */
+@media (min-width: 768px) {
+  .visible-sm {
+  display: block;
+  }
+  .hidden-sm{
+  display: none;
+  }
+  .columna-sm-6 {
+  width: 49%;
+  }
+  .columna-sm-6:nth-child(2n) {
+  margin-right: 0;
+  }
+
+}
+
+/* Desktop Grid */
+@media (min-width: 992px) {
+  .columna-3 {
+  width: 23.5%;
+  }
+  .columna-3:nth-child(4n) {
+  margin-right: 0;
+  }
+  .columna-9 {
+  width: 74.5%;
+  }
+  .right-sidebar aside {
+  margin-right: 0;
+  }
+  .columna-sm-4 {
+  width: 32%;
+  }
+  .columna-sm-4:nth-child(3n) {
+    margin-right: 0;
+  }
 }
