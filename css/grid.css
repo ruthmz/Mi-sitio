@@ -1,0 +1,37 @@
+
+.container {
+  width: 87%;
+  margin: 2% auto;
+  text-align: justify;
+  /*  overflow: auto; */
+}
+.container-fluid{
+  width: 100%;
+  margin: 2% auto;
+  text-align: justify;
+}
+.row:before, .row:after {
+  content: " ";
+  display: table;
+}
+
+.row:after {
+  clear: both;
+}
+
+[class*= "columna-"] {
+  padding: 1em; 
+  float: left;
+  /* background:rgb(243, 244, 245);
+  outline: 1px solid royalblue; */
+  margin-right: 2%; /*Esto es el gutter */
+}
+
+.columna-xs-12 {
+  width: 100%;
+}
+
+.text-center{
+  text-align: center;
+  color: #fff;
+}
